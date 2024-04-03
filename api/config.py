@@ -26,21 +26,21 @@ GROUP_MODE = os.getenv("GROUP_MODE=", "1")
 prompt_new_threshold = int(3)
 
 #The default prompt when the photo has no accompanying text
-defaut_photo_caption = "describe this picture"
+defaut_photo_caption = "опиши эту картинку"
 
 """ Below is some text related to the user """
-help_text = "You can send me text or pictures. When sending pictures, please include the text in the same message.\nTo use the group please @bot or reply to any message sent by the bot"
-command_list = "/new Start a new chat\n/get_my_info Get personal information\n/get_group_info Get group information (group only)\n/get_allowed_users Get the list of users that are allowed to use the bot (admin only)\n/get_allowed_groups Get the list of groups that are allowed to use the bot (admin only)\n/list_models list_models (admin only)\n/get_api_key Get the list of gemini's apikeys. It is currently useless. Multiple keys may be added to automatically switch in the future.(admin only)\n/help Get help\n/5g_test :)"
+help_text = "Ты можешь послать мне текст или картинку. Когда посылаешь картинку - пожалуйста, задавай вопрос в этом же сообщении как описание к ней."
+command_list = "/new Начать новый чат\n/get_my_info Получить информацию о себе\n/get_allowed_users Список пользователей, допущенных к боту (admin only)\n/list_models Список моделей (admin only)\n/get_api_key Список gemini's apikeys. It is currently useless. Multiple keys may be added to automatically switch in the future.(admin only)\n/help Получить помощь"
 admin_auch_info = "You are not the administrator or your administrator ID is set incorrectly!!!"
 debug_mode_info = "Debug mode is not enabled!"
 command_format_error_info = "Command format error"
 command_invalid_error_info = "Invalid command, use /help for help"
-user_no_permission_info = "You are not allowed to use this bot."
-group_no_permission_info = "This group does not have permission to use this robot."
-gemini_err_info = f"Something went wrong!\nThe content you entered may be inappropriate, please modify it and try again"
-new_chat_info = "We're having a fresh chat."
-prompt_new_info = "Type /new to kick off a new chat."
-unable_to_recognize_content_sent = "The content you sent is not recognized!"
+user_no_permission_info = "Я вас не звал, идите..."
+group_no_permission_info = "Я вас (группу) не звал, идите..."
+gemini_err_info = f"Something went wrong!\nВведенный тобой контент может быть неприемлемым. Измени его и повтори попытку."
+new_chat_info = "У нас теперь свежий чат."
+prompt_new_info = "Выполни /new для начала нового чата."
+unable_to_recognize_content_sent = "Твой контент не распознан!"
 
 """ Below is some text related to the log """
 send_message_log = "Send a message. The content returned is:"
