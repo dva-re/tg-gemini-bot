@@ -104,3 +104,4 @@ So, if you've done everything step by step just like we talked about and your Te
 ![screen](./screenshots/vercel_logs.png)
 
 3. If there are any error messages, you can open an issue, and then provide the error information.
+
