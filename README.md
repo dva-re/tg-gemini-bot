@@ -39,7 +39,7 @@ Get these things ready, and then fill them in as environment variables in Vercel
 
 ## Get Started
 
-1. Click [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwinniesi%2Ftg-gemini-bot&env=BOT_TOKEN%2CGOOGLE_API_KEY%2CALLOWED_USERS&project-name=tg-gemini-bot&repository-name=tg-gemini-bot) to deploy to Vercel.
+1. Click [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FRastafaryEng%2Ftg-gemini-bot-arc&env=BOT_TOKEN%2CGOOGLE_API_KEY%2CALLOWED_USERS&project-name=tg-gemini-bot&repository-name=tg-gemini-bot-arc) to deploy to Vercel.
 
 2. **Set the environment variable** according to the instructions below.
 
@@ -104,4 +104,3 @@ So, if you've done everything step by step just like we talked about and your Te
 ![screen](./screenshots/vercel_logs.png)
 
 3. If there are any error messages, you can open an issue, and then provide the error information.
-
